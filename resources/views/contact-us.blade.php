@@ -3,7 +3,7 @@
 @section('content')
 	<div class="main">
 		<div class="content-form">
-			<h1>Conctact Form</h1>
+			<h1>Contact Form</h1>
 			@if ($errors->any())
 				@foreach ($errors->all() as $error)
 					<h4 class="error">{{ $error }}</h4>
