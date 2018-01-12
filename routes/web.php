@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 // insert inquiries from contact
 Route::get('inquire', 'InquiryController@inquire');
+Route::post('store', 'InquiryController@store');
